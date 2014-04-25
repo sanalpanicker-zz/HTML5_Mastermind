@@ -1,0 +1,30 @@
+*{
+ padding:0px;
+ margin:0px;
+}
+html{
+	height:100%;
+}
+#header {background-color:red;height:40px;}
+#content{
+	width:100%;
+	overflow: hidden;
+}
+#left {
+background-color:green;
+
+width:33.33%;
+float: left;}
+#mid {
+	background-color:yellow;
+
+width:33.33%;
+
+float: left;}
+#right {
+	background-color:blue;
+
+width:33.33%;
+
+float: left;}
+#footer {background-color:black; height:30px;position: relative;}

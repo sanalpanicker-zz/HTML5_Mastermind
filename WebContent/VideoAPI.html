@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="US-ASCII">
-
-
-<title>VideoAPI</title>
-
-
+<title>HTML5 Video player</title>
+<style>
+::cue(.captions){
+	color:#990000;}
+</style>
 </head>
 <body>
-Hai here goes the video
-Hai
+<section>
+<video width="720" height="400" preload="none" controls loop poster="data/Screen.png">
+<source src="data/trailer.ogg">
+	<track src="data/title.vtt" srclang="en" kind="subtitles" default></track>
+</video>
+</section>
+
 </body>
 </html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="US-ASCII">
+<title>Insert title here</title>
+<link rel="stylesheet" href="styles/style.css" type="text/css" charset="utf-8"/>
+<script type="text/javascript">
+
+window.addEventListener('load', function(){
+	
+	var height = window.innerHeight;
+	var newheight = height-70;
+
+	document.getElementById('left').style.height = newheight+"px";
+	document.getElementById('mid').style.height = newheight+"px";
+	document.getElementById('right').style.height = newheight+"px";	
+});
+</script>
+</head>
+<body style="overflow:hidden;">
+<div id="header" style="overflow:hidden;" ></div>
+<div id="content">
+    <div id="left"></div>
+    <div id="mid"></div>
+    <div id="right"></div>
+</div>
+<div id="footer"></div>
+</body>
+</html>

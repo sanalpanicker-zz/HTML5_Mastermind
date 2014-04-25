@@ -1,0 +1,17 @@
+
+* {
+	paddin:0px;
+	margin:0px;
+}
+body{	
+text-align: center;
+}
+#player{
+
+	width: 720px;
+	margin: 20px auto;
+	padding: 10px 5px 5px 5px;
+	background: #999999;
+	border: 1px solid #666666;
+	border-radius: 10px;
+}
