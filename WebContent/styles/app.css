@@ -1,6 +1,7 @@
 #canvasbox{
-	width:25%;
-	height:150px;	
+	width:200px;
+	height:200px;	
 	background-color: rgba(250,88,88,0.5);
 	display:inline;
+
 }
